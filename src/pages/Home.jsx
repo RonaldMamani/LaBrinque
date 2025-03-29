@@ -6,7 +6,7 @@ export default function Home () {
     return(
         <>
             <Header/>
-            <main>
+            <main className="p-10">
                 <h1>La Brinque</h1>
                 <Outlet />
             </main>
