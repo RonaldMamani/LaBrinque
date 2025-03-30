@@ -7,7 +7,7 @@ export default function SectionSobreNos() {
     return(
         <section className="text-center flex flex-col gap-8">
             <div className="px-14 pt-20 pb-14 flex flex-col gap-8">
-                <h4 className="text-[#114C86] font-bold text-[34px]">Sobre Nós</h4>
+                <h4 className="text-[#114C86] font-extrabold text-[34px]">Sobre Nós</h4>
                 <div className=" flex flex-col gap-10">
                     <img src={ImageExterior} alt="" className="rounded-4xl" />
                     <div className="flex flex-col gap-10 items-center">

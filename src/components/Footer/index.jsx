@@ -21,12 +21,12 @@ export default function Footer(){
                                 " />
                     </div>
             </div>
-            <div className="bg-[#EF7811] px-9 py-16">
-                <div className="text-center items-center py-10 flex flex-col gap-8">
-                    <TextBoldWhite numbertext={26} text="(11) 93722-3405" />
+            <div className="bg-[#EF7811] px-14 py-16">
+                <div className="text-center items-center py-12 flex flex-col gap-8">
+                    <TextBoldWhite className="text-3xl" text="(11) 93722-3405" />
                     <div>
-                        <TextBoldWhite numbertext={26} text="Rua Carlos de Campo, 45 Vila Correa" />
-                        <TextBoldWhite numbertext={26} text="Ferraz de Vasconcelos - SP, 08502-320" />
+                        <TextBoldWhite className="text-2xl" text="Rua Carlos de Campo, 45 Vila Correa" />
+                        <TextBoldWhite className="text-2xl" text="Ferraz de Vasconcelos - SP, 08502-320" />
                     </div>
                 </div>
                 <div className="
@@ -38,7 +38,7 @@ export default function Footer(){
             </div>
             <div className="bg-[#77B8A0] px-12 py-5 text-center">
                 <TextBoldWhite 
-                    numbertext={14}
+                    className=""
                     text="Lá Brinquê - Clinica de Desenvolvimento Infantil © 2023 - Rodos os direitos reservados" />
             </div>
         </footer>

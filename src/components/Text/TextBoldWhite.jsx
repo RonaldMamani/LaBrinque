@@ -1,6 +1,6 @@
-export default function TextBoldWhite({numbertext, textcolor, text}) {
+export default function TextBoldWhite({className, text}) {
     return(
-        <p className={`font-bold text-[${numbertext}px] text-white `}>
+        <p className={`font-bold ${className} text-white `}>
             {text}
         </p>
     )
