@@ -8,15 +8,15 @@ import Informacoes from "../components/Informacoes";
 
 export default function Home () {
     return(
-        <>
+        <main className="relative">
             <Header/>
-            <main className="">
+            <div className="">
                 <Intro />
                 <SectionSobreNos />
                 <SectionServicos />
                 <Informacoes />
-            </main>
+            </div>
             <Footer/>
-        </>
+        </main>
     )
 }
