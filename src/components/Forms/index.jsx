@@ -1,6 +1,6 @@
 export default function Forms() {
     return(
-        <div className="w-full py-10 flex justify-center items-center">
+        <div className="w-full flex justify-center items-center">
             <form className="w-full max-w-lg flex flex-col items-center gap-4 text-start">
                 <div className="flex flex-col gap-2 w-full">
                 <label className="text-[#EF7811] text-xl font-semibold">Seu Nome</label>

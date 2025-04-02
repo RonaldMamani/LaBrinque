@@ -1,8 +1,8 @@
 import Logo from "/src/assets/LOGO-LB.svg"
-import Whatsapp from "/src/assets/ICONE-SOCIAL.svg"
-import Facebook from "/src/assets/ICON-FB.svg"
 
 import TextBoldWhite from "../Text/TextBoldWhite"
+import IconeWhatsapp from "../SVG/IconeWhatsapp"
+import IconeInstagram from "../SVG/IcconeInstagram"
 
 export default function Footer(){
     return(
@@ -23,10 +23,15 @@ export default function Footer(){
                     </div>
             </div>
             <div className="
-                bg-[#EF7811] px-14 py-16
+                bg-[#EF7811] px-14 py-16 flex flex-col items-center
                 md:px-24
+                lg:px-36 lg:flex-row lg:justify-between
+                xl:px-48
                 ">
-                <div className="text-center items-center py-12 flex flex-col gap-8">
+                <div className="
+                    text-center items-center py-12 flex flex-col gap-8
+                    lg:text-start lg:items-start
+                    ">
                     <TextBoldWhite className="text-3xl" text="(11) 93722-3405" />
                     <div>
                         <TextBoldWhite className="text-2xl" text="Rua Carlos de Campo, 45 Vila Correa" />
@@ -35,9 +40,31 @@ export default function Footer(){
                 </div>
                 <div className="
                     flex flex-col gap-10 items-center
+                    md:flex-row
                     ">
-                    <img src={Whatsapp} alt="" className="w-[45px] h-[45px]" />
-                    <img src={Facebook} alt="" className="w-[45px] h-[45px]"/>
+                    <a 
+                        href="https://api.whatsapp.com/send?phone=5511937223405" 
+                        target="_blank"
+                        className="rounded-full hover:bg-white transition-colors"
+                        >
+                        <IconeWhatsapp className="
+                            text-white w-[45px] h-[45px] p-2 hover:text-[#EF7811]
+                            md:w-[50px] md:h-[50px]
+                            lg:w-[60px] lg:h-[60px]
+                            "/>
+                    </a>
+                    <a 
+                        href="https://www.instagram.com/clinicalabrinque.di?igsh=bTgyamRhdjgwdHo2" 
+                        target="_blank"
+                        className="rounded-full hover:bg-white transition-colors"
+                        >
+                        <IconeInstagram className="
+                            text-white w-[45px] h-[45px] p-2 hover:text-[#EF7811]
+                            md:w-[50px] md:h-[50px]
+                            lg:w-[60px] lg:h-[60px]
+                            "
+                            />
+                    </a>
                 </div>
             </div>
             <div className="

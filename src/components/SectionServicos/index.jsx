@@ -4,10 +4,22 @@ import ButtonStaticRose from "../Buttons/ButtonStaticRose";
 export default function SectionServicos() {
     return(
         <section className="flex flex-col items-center">
-            <div className="px-10 py-18 text-center flex flex-col gap-10">
+            <div className="
+                px-10 py-18 text-center flex flex-col gap-10
+                md:px-20 md:py-20
+                lg:px-36
+                xl:px-48
+                ">
                 <h4 className="px-4 uppercase text-[#963B84] text-[40px] font-bold">Nossos Seviços</h4>
-                <div className="flex flex-col gap-14 items-center pb-10">
-                    <div className="flex flex-col gap-8 items-center">
+                <div className="
+                    flex flex-col gap-14 items-center pb-10
+                    lg:gap-20
+                    ">
+                    <div className="
+                        flex flex-col gap-8 items-center
+                        md:grid md:grid-cols-2
+                        lg:grid-cols-4 lg:gap-10
+                        ">
                         <ButtonStaticRose text="Terapia Ocupacional" />
                         <ButtonStaticRose text="Fisioterapia" />
                         <ButtonStaticRose text="Psicologia" />
