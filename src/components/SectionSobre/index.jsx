@@ -11,7 +11,7 @@ export default function SectionSobre() {
             px-8 pt-10 pb-20 flex flex-col gap-16
             md:px-24
             lg:px-36 lg:pt-16 lg:gap-24
-            xl:px-48
+            xl:px-60
             ">
             <div className="
                 flex flex-col items-center gap-10 text-center

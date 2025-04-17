@@ -8,7 +8,7 @@ export default function SectionServicos() {
                 px-10 py-18 text-center flex flex-col gap-10
                 md:px-20 md:py-20
                 lg:px-36
-                xl:px-48
+                xl:px-60
                 ">
                 <h4 className="px-4 uppercase text-[#963B84] text-[40px] font-bold">Nossos Seviços</h4>
                 <div className="

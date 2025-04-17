@@ -26,7 +26,7 @@ export default function Footer(){
                 bg-[#EF7811] px-14 py-16 flex flex-col items-center
                 md:px-24
                 lg:px-36 lg:flex-row lg:justify-between
-                xl:px-48
+                xl:px-60
                 ">
                 <div className="
                     text-center items-center py-12 flex flex-col gap-8
@@ -49,7 +49,7 @@ export default function Footer(){
                         >
                         <IconeWhatsapp className="
                             text-white w-[45px] h-[45px] p-2 hover:text-[#EF7811]
-                            md:w-[50px] md:h-[50px]
+                            w-[50px] h-[50px]
                             lg:w-[60px] lg:h-[60px]
                             "/>
                     </a>
@@ -60,7 +60,7 @@ export default function Footer(){
                         >
                         <IconeInstagram className="
                             text-white w-[45px] h-[45px] p-2 hover:text-[#EF7811]
-                            md:w-[50px] md:h-[50px]
+                            w-[50px] h-[50px]
                             lg:w-[60px] lg:h-[60px]
                             "
                             />

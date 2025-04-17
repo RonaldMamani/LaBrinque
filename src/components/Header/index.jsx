@@ -22,7 +22,7 @@ export default function Header() {
                             ${open ? "max-lg:h-screen z-50" : ""}
                             md:px-20
                             lg:px-36
-                            xl:px-48
+                            xl:px-60
                         `}>
                             <div className="flex justify-between items-center">
                                 <Link to="/" className="

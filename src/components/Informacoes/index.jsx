@@ -9,7 +9,7 @@ export default function Informacoes() {
             text-center px-10 py-18 flex flex-col items-center gap-10
             md:px-20 md:py-28
             lg:px-36 lg:py-36
-            xl:px-48
+            xl:px-60
             ">
             <h4 className="text-[#EF7811] font-extrabold text-3xl">Entre em Contato</h4>
             <div className="

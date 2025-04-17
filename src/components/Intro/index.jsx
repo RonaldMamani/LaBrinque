@@ -19,7 +19,7 @@ export default function Intro (){
                     z-10 px-12 py-16 mt-5 flex flex-col gap-14
                     md:py-24 md:px-20
                     lg:gap-20
-                    xl:px-48
+                    xl:px-60
                     ">
                     <div className="
                         text-white text-center flex flex-col gap-5

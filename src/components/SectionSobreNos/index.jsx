@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-import ImageExterior from "../../assets/IMAGEM-TEMPLATE2.jpg"
+import ImageExterior from "/src/assets/IMAGEM-TEMPLATE2.jpg"
 
 
 export default function SectionSobreNos() {
@@ -10,7 +10,7 @@ export default function SectionSobreNos() {
                 px-14 pt-20 pb-14 flex flex-col gap-8
                 md:px-20
                 lg:px-36 lg:pt-32 lg:pb-28 lg:gap-18 
-                xl:px-48
+                xl:px-60
                 ">
                 <h4 className="text-[#114C86] font-extrabold text-[34px]">Sobre Nós</h4>
                 <div className="

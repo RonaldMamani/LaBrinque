@@ -14,7 +14,7 @@ export default function NavFooter () {
             px-10 pt-16 pb-28 flex flex-col gap-16
             md:px-24
             lg:px-36
-            xl:px-48
+            xl:px-60
             ">
             <h5 className="
                 text-center text-[#EF7811] font-bold text-[40px]
