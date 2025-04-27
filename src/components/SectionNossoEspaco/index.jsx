@@ -1,6 +1,6 @@
 import espacoImage from "/src/data/espacoImage";
 
-import ContainerImage from "../ContainerImage"
+import ContainerImage from "../ContainerImage";
 
 export default function SectionNossoEspaco() {
     return (
