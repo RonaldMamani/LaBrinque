@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { HashLink } from 'react-router-hash-link'
 
 import ImageExterior from "/src/assets/IMAGEM-TEMPLATE2.jpg"
 
@@ -38,12 +39,13 @@ export default function SectionSobreNos() {
                             lg:text-start lg:px-0 lg:text-xl
                             ">
                             A Clínica Lá Brinquê é especializada no desenvolvimento infantil (0-12 anos), com serviços como Terapia Ocupacional, Fisioterapia, Psicopedagogia, Psicologia Clínica, Terapia ABA, Psicomotricidade, Reforço Escolar e Fonoaudiologia, visando melhorar habilidades e qualidade de vida.</p>
-                        <Link 
-                            to="/sobre"
+                        <HashLink
+                            smooth
+                            to="/sobre#header"
                             className="bg-[#114C86] text-white w-[250px] py-8 rounded-full"
                         >
-                        <p className="font-semibold">Conheça nosso Espaço</p>
-                        </Link>
+                            <p className="font-semibold">Conheça nosso Espaço</p>
+                        </HashLink>
                     </div>
                 </div>
             </div>

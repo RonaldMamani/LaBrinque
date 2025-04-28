@@ -3,7 +3,7 @@ import { useState } from "react";
 import Logo from "/src/assets/LOGO.png";
 import Hamburger from "/src/assets/Menu-Icon.svg";
 import Close from "/src/assets/Close_ICON.svg";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import NavDesk from "../NavDesk";
 
 
@@ -12,7 +12,7 @@ export default function Header() {
     const [open, setOpen] = useState(false);
 
     return(
-        <header className={`
+        <header id="header" className={`
                 `}>
                 <div className={`
                     ${open ? "absolute w-full z-50" : ""}
@@ -25,7 +25,7 @@ export default function Header() {
                             xl:px-60
                         `}>
                             <div className="flex justify-between items-center">
-                                <Link to="/" className="
+                                <HashLink smooth to="/#header" className="
                                     rounded-full bg-emerald-100
                                     "
                                     onClick={() => setOpen(false)}
@@ -35,7 +35,7 @@ export default function Header() {
                                         md:w-[110px] md:h-[110px]
                                         
                                     " />
-                                </Link>
+                                </HashLink>
                                 <button className="
                                     w-[60px] h-[60px] 
                                     hover:cursor-pointer
@@ -54,10 +54,10 @@ export default function Header() {
                                     flex flex-col gap-8 pt-14 text-3xl text-[#77B8A0]
                                     lg:hidden
                                     ">
-                                    <Link to="/" className="hover:text-orange-500" onClick={() => setOpen(!open)} >Home</Link>
-                                    <Link to="/sobre" className="hover:text-orange-500" onClick={() => setOpen(!open)}>Sobre Nós</Link>
-                                    <Link to="/servicos" className="hover:text-orange-500" onClick={() => setOpen(!open)}>Nossos Serviços</Link>
-                                    <Link to="/nossoespaco" className="hover:text-orange-500" onClick={() => setOpen(!open)}>Nosso Espaço</Link>
+                                    <HashLink smooth to="/#header" className="hover:text-orange-500" onClick={() => setOpen(!open)} >Home</HashLink>
+                                    <HashLink smooth to="/sobre#header" className="hover:text-orange-500" onClick={() => setOpen(!open)}>Sobre Nós</HashLink>
+                                    <HashLink smooth to="/servicos#header" className="hover:text-orange-500" onClick={() => setOpen(!open)}>Nossos Serviços</HashLink>
+                                    <HashLink smooth to="/nossoespaco#header" className="hover:text-orange-500" onClick={() => setOpen(!open)}>Nosso Espaço</HashLink>
                                 </nav>
                             }
                     </nav>

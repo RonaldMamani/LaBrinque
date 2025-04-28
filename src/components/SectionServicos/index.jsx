@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import ButtonStaticRose from "../Buttons/ButtonStaticRose";
 
 export default function SectionServicos() {
@@ -33,12 +33,13 @@ export default function SectionServicos() {
                         bg-[#963B84] shadow-lg shadow-[#EC7BA7] w-[270px] py-4 rounded-full
                         hover:bg-[#852B84]
                         ">
-                        <Link 
-                            to="/servicos"
+                        <HashLink 
+                            smooth
+                            to="/servicos#header"
                             className="uppercase"
                             >
                             <p className="text-white font-extrabold text-2xl">Saber Mais</p>
-                        </Link>
+                        </HashLink>
                     </button>
                 </div>
             </div>

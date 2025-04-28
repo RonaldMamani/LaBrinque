@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function LinkButton ({to, image, alt, text, className, className1, className2}) {
     return(
-        <Link to={to} className={`
+        <HashLink smooth to={`${to}#header`} className={`
             grid grid-cols-2 items-center gap-5 ${className} p-5 rounded-4xl
             md:p-6
             `}>
@@ -22,6 +22,6 @@ export default function LinkButton ({to, image, alt, text, className, className1
                 ${className2}
                 `}
                 >{text}</span>
-        </Link>
+        </HashLink>
     )
 }

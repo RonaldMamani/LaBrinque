@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function Intro (){
     return(
@@ -41,22 +41,25 @@ export default function Intro (){
                         md:flex-row justify-center
                         lg:text-2xl
                         ">
-                        <Link 
-                            to="/sobre" 
+                        <HashLink
+                            smooth
+                            to="/sobre#header" 
                             className="
                                 text-center bg-[#77B8A0] px-16 py-5 rounded-full
                                 hover:bg-[#2AB8A0] transition-colors
                             " >
                             <p>Sobre Nós</p>
-                        </Link>
-                        <button 
+                        </HashLink>
+                        <a
+                            href="https://api.whatsapp.com/send?phone=5511937223405"
+                            target="_blank"
                             className="
                                 text-center bg-[#EF7811] px-6 py-5 rounded-full
                                 hover:bg-[#BB7811] transition-colors
                             "
                             >
                             <p>Vamos Conversar?</p>
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div className="
