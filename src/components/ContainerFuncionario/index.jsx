@@ -12,7 +12,7 @@ export default function ContainerFuncionario({imageUrl, alt, nome, cargo}) {
             />
             <div className="flex flex-col gap-1">
                 <h4 className="text-3xl font-bold">{nome}</h4>
-                <p className="text-xl">{cargo}</p>
+                <p className="text-xl font-semibold">{cargo}</p>
             </div>
         </div>
     )

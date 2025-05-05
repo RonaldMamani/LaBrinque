@@ -18,8 +18,8 @@ export default function SectionSobre() {
                 lg:text-start
                 ">
                 <h3 className="
-                    text-[#77B8A0] text-4xl font-bold
-                    lg:text-5xl
+                    text-[#77B8A0] text-4xl font-bold underline
+                    lg:text-[50px]
                     ">Sobre Nós</h3>
                 <p className="lg:text-lg">
                     Olá nós somos a clínica Lá Brinquê, uma clínica voltada ao desenvolvimento infantil para crianças de 0-12 anos, visando ganho de habilidades e melhora no desempenho e qualidade de vida! Possuímos os serviços ativos de: Terapia Ocupacional, Fisioterapia, Psicopedagogia, Psicologia Clínica, Terapia ABA, Psicomotricidade, Reforço Escolar e fonoaudiologia.

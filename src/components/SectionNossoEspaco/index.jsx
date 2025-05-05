@@ -5,20 +5,20 @@ import ContainerImage from "../ContainerImage";
 export default function SectionNossoEspaco() {
     return (
         <section className="
-            px-8 py-10 flex flex-col gap-12
+            px-8 py-10 flex flex-col gap-12 items-center
             md:px-24
             lg:px-36 lg:py-16
-            xl:px-60
+            xl:px-60 lg:gap-20
             ">
             <h3 className="
-                text-[#114C84] text-[36px] text-center font-bold
+                text-[#114C84] text-[36px] text-center font-bold border-b-8
                 md:text-[40px]
                 lg:text-[50px]
                 ">Conheça nosso espaço</h3>
             <div className="
                     grid grid-cols-1 gap-8
                     md:grid-cols-2 
-                    lg:grid-cols-4 lg:gap-6
+                    lg:grid-cols-4
                 " 
             >
                 {espacoImage.map((img, index) => (

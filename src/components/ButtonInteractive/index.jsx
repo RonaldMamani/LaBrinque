@@ -7,6 +7,7 @@ export default function ButtonInteractive({title, text, isOpen, onClick}) {
         <button 
             className="
                 pl-16 pr-10 py-5 bg-[#EC7BA7] text-white text-start rounded-[35px] overflow-hidden
+                hover:bg-[#DF6F7F] hover:scale-105 transition-all
             "
             onClick={onClick}
             aria-expanded={isOpen}
@@ -15,7 +16,6 @@ export default function ButtonInteractive({title, text, isOpen, onClick}) {
             <div className="flex justify-between items-center focus:outline-none">
                 <span className="
                     text-2xl font-bold
-                    lg:text-3xl
                     ">{title}</span>
                 <img
                     src={isOpen ? Menos : Mais}

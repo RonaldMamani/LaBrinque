@@ -11,11 +11,14 @@ export default function ContainerImage({ src, alt, className}) {
     };
 
     return (
-        <div>
+        <div className="shadow-2xl rounded-4xl">
             <img
                 src={src}
                 alt={alt}
-                className={`w-[350px] h-[425px] cursor-zoom-in ${className}`}
+                className={`
+                    w-[350px] h-[425px] cursor-zoom-in
+                    hover:scale-105 transition-all
+                    ${className}`}
                 onClick={() => setIsOpen(true)}
             />
 
@@ -29,7 +32,7 @@ export default function ContainerImage({ src, alt, className}) {
                     src={src}
                     alt={alt}
                     className="
-                        w-[400px] h-[550px] rounded-xl shadow-2xl cursor-default
+                        w-[400px] h-[550px] rounded-xl cursor-default
                         md:w-[600px] md:h-[750px]
                         lg:w-[700px] lg:h-[875px]
                         "

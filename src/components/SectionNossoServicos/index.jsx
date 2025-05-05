@@ -13,14 +13,14 @@ export default function SectionNossoServicos() {
 
     return (
         <main className="
-            px-10 py-16 flex flex-col gap-12
+            px-10 py-16 flex flex-col gap-12 items-center
             md:px-24
             lg:px-36 lg:gap-20 
             xl:px-60
             ">
             <h4 className="
-                text-[#EC7BA7] text-center text-4xl font-bold
-                lg:text-5xl
+                text-[#EC7BA7] text-center text-4xl font-bold border-b-8
+                lg:text-[50px]
                 ">
                 Nossos Serviços
             </h4>
@@ -32,7 +32,7 @@ export default function SectionNossoServicos() {
                 <img 
                     className="
                         border border-[#EC7BA7] rounded-3xl 
-                        lg:h-full lg:border-2"
+                        lg:h-[830px] lg:w-[650px] lg:border-2"
                     src={ImageTemplate} 
                     alt="Imagem da Clinica por dentro" />
                 <div className="
@@ -72,7 +72,6 @@ export default function SectionNossoServicos() {
                                 cargo={funcionario.profissao}
                             />
                         ))}
-
                     </div>
             </div>
         </main>

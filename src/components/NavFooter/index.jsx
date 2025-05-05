@@ -21,24 +21,25 @@ export default function NavFooter () {
                 lg:text-5xl
                 ">Conheça Também</h5>
             <div className="
-                flex flex-col gap-12 text-center font-bold
-                lg:flex-row justify-between
+                flex flex-col gap-12 text-center font-bold justify-between
+                lg:flex-row 
+                xl:px-28
                 ">
                 {pathname === "/nossoespaco" ? "" : (
                     <LinkButton
                         image={ImageEspaco}
-                        alt=""
+                        alt="Imagem de Espaço Interno da Clinica"
                         to="/nossoespaco"
-                        className="bg-[#114C84]"
+                        className="bg-[#114C84] hover:bg-sky-800"
                         text="Nosso Espaço"
                     />
                 )}
                 {pathname === "/servicos" ? "" : (
                     <LinkButton
                         image={ImageServico}
-                        alt=""
+                        alt="Imagem de Criança Lendo"
                         to="/servicos"
-                        className="bg-[#EC7BA7]"
+                        className="bg-[#EC7BA7] hover:bg-pink-400"
                         text="Serviços"
                         className1={pathname === "/sobre" && "md:order-2"}
                         className2={pathname === "/sobre" && "md:order-1"}
@@ -49,7 +50,7 @@ export default function NavFooter () {
                         image={ImageSobre}
                         alt=""
                         to="/sobre"
-                        className="bg-[#77B8A0]"
+                        className="bg-[#77B8A0] hover:bg-teal-600"
                         text="Sobre Nós"
                         className1={pathname === "/servicos" && "md:order-2" || pathname === "/nossoespaco" && "md:order-2"}
                         className2={pathname === "/servicos" && "md:order-1" || pathname === "/nossoespaco" && "md:order-1"}
