@@ -11,7 +11,10 @@ export default function Informacoes() {
             lg:px-36 lg:py-36
             xl:px-60
             ">
-            <h4 className="text-[#EF7811] font-extrabold text-3xl">Entre em Contato</h4>
+            <h4 className="
+                text-[#EF7811] font-extrabold text-3xl
+                lg:text-[48px]
+                ">Entre em Contato</h4>
             <div className="
                 w-full flex flex-col gap-10
                 lg:grid lg:grid-cols-3 lg:gap-14

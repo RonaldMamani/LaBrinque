@@ -7,10 +7,13 @@ export default function SectionServicos() {
             <div className="
                 px-10 py-18 text-center flex flex-col gap-10
                 md:px-20 md:py-20
-                lg:px-36
+                lg:px-36 lg:gap-16
                 xl:px-60
                 ">
-                <h4 className="px-4 uppercase text-[#963B84] text-[40px] font-bold">Nossos Seviços</h4>
+                <h4 className="
+                    px-4 uppercase text-[#963B84] text-[40px] font-bold
+                    lg:text-[48px]
+                    ">Nossos Seviços</h4>
                 <div className="
                     flex flex-col gap-14 items-center pb-10
                     lg:gap-20

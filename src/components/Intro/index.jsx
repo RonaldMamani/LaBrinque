@@ -55,7 +55,7 @@ export default function Intro (){
                             target="_blank"
                             className="
                                 text-center bg-[#EF7811] px-6 py-5 rounded-full
-                                hover:bg-[#BB7811] transition-colors
+                                hover:bg-orange-600 transition-colors
                             "
                             >
                             <p>Vamos Conversar?</p>

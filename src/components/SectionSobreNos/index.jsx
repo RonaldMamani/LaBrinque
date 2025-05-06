@@ -10,10 +10,13 @@ export default function SectionSobreNos() {
             <div className="
                 px-14 pt-20 pb-14 flex flex-col gap-8
                 md:px-20
-                lg:px-36 lg:pt-32 lg:pb-28 lg:gap-18 
+                lg:px-36 lg:py-28 lg:gap-18 
                 xl:px-60
                 ">
-                <h4 className="text-[#114C86] font-extrabold text-[34px]">Sobre Nós</h4>
+                <h4 className="
+                    text-[#114C86] font-extrabold text-[34px]
+                    lg:text-[48px]
+                    ">Sobre Nós</h4>
                 <div className="
                     flex flex-col items-center gap-10
                     md:gap-16
@@ -24,7 +27,7 @@ export default function SectionSobreNos() {
                         src={ImageExterior} 
                         alt="Imagem da Entrada da Clinica" 
                         className="
-                            rounded-4xl
+                            rounded-4xl shadow-2xl
                             md:w-[80%]
                             lg:order-2 lg:w-[100%]
                             " />
@@ -42,7 +45,10 @@ export default function SectionSobreNos() {
                         <HashLink
                             smooth
                             to="/sobre#header"
-                            className="bg-[#114C86] text-white w-[250px] py-8 rounded-full"
+                            className="
+                                bg-[#114C86] text-white w-[250px] py-8 rounded-full
+                                hover:bg-sky-700 transition-colors
+                                "
                         >
                             <p className="font-semibold">Conheça nosso Espaço</p>
                         </HashLink>

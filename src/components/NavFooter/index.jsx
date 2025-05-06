@@ -21,8 +21,8 @@ export default function NavFooter () {
                 lg:text-5xl
                 ">Conheça Também</h5>
             <div className="
-                flex flex-col gap-12 text-center font-bold justify-between
-                lg:flex-row 
+                flex flex-col gap-12 text-center items-center font-bold
+                lg:flex-row lg:justify-between
                 xl:px-28
                 ">
                 {pathname === "/nossoespaco" ? "" : (

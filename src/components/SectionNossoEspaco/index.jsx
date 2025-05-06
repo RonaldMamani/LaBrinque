@@ -11,9 +11,9 @@ export default function SectionNossoEspaco() {
             xl:px-60 lg:gap-20
             ">
             <h3 className="
-                text-[#114C84] text-[36px] text-center font-bold border-b-8
+                text-[#114C84] text-[36px] text-center font-bold underline decoration-[3px] underline-offset-6
                 md:text-[40px]
-                lg:text-[50px]
+                lg:text-[50px] lg:decoration-[5px]
                 ">Conheça nosso espaço</h3>
             <div className="
                     grid grid-cols-1 gap-8

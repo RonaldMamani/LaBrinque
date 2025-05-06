@@ -14,13 +14,13 @@ export default function SectionNossoServicos() {
     return (
         <main className="
             px-10 py-16 flex flex-col gap-12 items-center
-            md:px-24
+            md:px-24 md:gap-16
             lg:px-36 lg:gap-20 
             xl:px-60
             ">
             <h4 className="
-                text-[#EC7BA7] text-center text-4xl font-bold border-b-8
-                lg:text-[50px]
+                text-[#EC7BA7] text-center text-4xl font-bold underline decoration-[3px] underline-offset-6
+                lg:text-[50px] lg:decoration-[5px]
                 ">
                 Nossos Serviços
             </h4>
@@ -31,7 +31,8 @@ export default function SectionNossoServicos() {
                 ">
                 <img 
                     className="
-                        border border-[#EC7BA7] rounded-3xl 
+                        border border-[#EC7BA7] rounded-3xl
+                        md:h-[700px]
                         lg:h-[830px] lg:w-[650px] lg:border-2"
                     src={ImageTemplate} 
                     alt="Imagem da Clinica por dentro" />
@@ -55,9 +56,13 @@ export default function SectionNossoServicos() {
                 </div>
             </div>
             <div className="
-                    flex flex-col gap-13 text-center
+                    flex flex-col gap-14 text-center
+                    lg:gap-20
                 ">
-                    <h3 className="text-5xl text-[#963B84] font-bold">Conheça Nossa Equipe</h3>
+                    <h3 className="
+                        text-4xl text-[#963B84] font-bold underline decoration-[3px] underline-offset-6
+                        lg:text-5xl lg:decoration-[5px]
+                        ">Conheça Nossa Equipe</h3>
                     <div className="
                         grid grid-cols-1 gap-4
                         md:grid-cols-2
