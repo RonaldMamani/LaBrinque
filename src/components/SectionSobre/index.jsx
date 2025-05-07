@@ -1,7 +1,4 @@
-import Mission from "/src/assets/ICON-MISSION.svg"
-import Vision from "/src/assets/ICON-VISION.svg"
-import Values from "/src/assets/ICON-VALUES.svg"
-
+import valores from "/src/data/valores"
 
 import TopicMore from "../TopicMore";
 
@@ -30,24 +27,15 @@ export default function SectionSobre() {
                 md:px-10
                 lg:grid lg:grid-cols-3 lg:gap-20
                 ">
-                <TopicMore 
-                    img={Mission}
-                    alt="Icone de Missão"
-                    title="Missão"
-                    text="Na Clínica Lá Brinquê, nossa missão é promover o desenvolvimento integral e o bem-estar das crianças, proporcionando intervenções terapêuticas de alta qualidade que estimulem habilidades e melhorem o desempenho global."
-                />
-                <TopicMore 
-                    img={Vision}
-                    alt="Icone de Visão"
-                    title="Visão"
-                    text="Nossa visão é ser reconhecida como referência em cuidados infantis, buscando constantemente inovação e excelência nos serviços prestados, com foco na satisfação e no progresso de cada criança atendida."
-                />
-                <TopicMore 
-                    img={Values}
-                    alt="Icone de Valores da Clinica"
-                    title="Visão"
-                    text="Na Clínica Lá Brinquê, colocamos as necessidades das crianças em primeiro lugar, oferecendo terapias personalizadas em um ambiente acolhedor. Nossa equipe altamente qualificada pratica ética, respeito e inovação contínua para adaptar-se às necessidades em evolução das crianças, colaborando com profissionais e comunidades para promover um desenvolvimento infantil abrangente."
-                />
+                {valores.map((valor, index) => (
+                    <TopicMore 
+                        key={index}
+                        img={valor.image}
+                        alt={valor.alt}
+                        title={valor.titleValue}
+                        text={valor.texto}
+                    />
+                ))}
             </div>
         </section>
     )
