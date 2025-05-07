@@ -21,16 +21,24 @@ const servicos = [
     },
     {
     title: "Psicomotricidade",
-    text: "A Psicomotricidade integra corpo e mente, estimulando o desenvolvimento motor, emocional e cognitivo por meio do movimento e da ludicidade.",
-    },
-    {
-    title: "Reforço Escolar",
-    text: "O Reforço Escolar oferece apoio individualizado para melhorar o rendimento acadêmico e a confiança da criança nas atividades escolares.",
+    text: "treino de habilidades motoras amplas e funcionais do dia a dia.",
     },
     {
     title: "Fonoaudiologia",
     text: "A Fonoaudiologia trata dificuldades na fala, linguagem, audição e alimentação, favorecendo a comunicação e o desenvolvimento infantil.",
     },
+    {
+    title: "Avaliações",
+    text: "Realizamos avaliações multidisciplinares detalhadas para identificar dificuldades e potencialidades da criança, direcionando o plano terapêutico mais adequado.",
+    },
+    {
+    title: "Orientação Parental",
+    text: "A orientação parental auxilia os responsáveis a compreenderem melhor as necessidades da criança, promovendo estratégias de convivência, educação e desenvolvimento em casa.",
+    },
+    {
+    title: "Treinamentos",
+    text: "Desenvolvemos treinamentos personalizados para escolas, profissionais e cuidadores, focando na capacitação sobre temas como inclusão, neurodiversidade e práticas terapêuticas.",
+    }
 ];
 
 export default servicos;

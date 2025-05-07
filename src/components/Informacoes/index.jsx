@@ -1,4 +1,6 @@
-import Forms from "../Forms";
+import ImagemInfo from "/src/assets/IMAGEM-INFO.jpg";
+
+import ContainerImage from "../ContainerImage";
 
 export default function Informacoes() {
     
@@ -14,15 +16,15 @@ export default function Informacoes() {
             <h4 className="
                 text-[#EF7811] font-extrabold text-3xl
                 lg:text-[48px]
-                ">Entre em Contato</h4>
+                ">Mais Informações</h4>
             <div className="
                 w-full flex flex-col gap-10
-                lg:grid lg:grid-cols-3 lg:gap-14
+                lg:grid lg:grid-cols-2
                 ">
                 <a href={googleMapsUrl} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="lg:col-span-2"
+                    className=""
                     >
                     <div className="
                         w-full h-[520px] overflow-hidden rounded-lg shadow-lg cursor-pointer border-4 border-gray-300 
@@ -37,7 +39,11 @@ export default function Informacoes() {
                     </iframe>
                     </div>
                 </a>
-                <Forms />
+                <ContainerImage 
+                    src={ImagemInfo}
+                    alt="Imagem de Especialidades da Clinica"
+                    className="w-full rounded-2xl"
+                />
             </div>
     </section>
     )

@@ -1,3 +1,4 @@
+import ButtonStaticRose from "../ButtonStaticRose";
 import ContainerImage from "../ContainerImage";
 
 export default function ContainerFuncionario({imageUrl, alt, nome, cargo}) {

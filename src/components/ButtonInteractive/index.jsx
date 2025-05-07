@@ -2,11 +2,10 @@ import Mais from "/src/assets/Add.svg";
 import Menos from "/src/assets/Less.svg";
 
 export default function ButtonInteractive({title, text, isOpen, onClick}) {
-
     return (
         <button 
             className="
-                pl-16 pr-10 py-5 bg-[#EC7BA7] text-white text-start rounded-[35px] overflow-hidden
+                px-10 py-3.5 bg-[#EC7BA7] text-white text-start rounded-[35px] overflow-hidden
                 hover:bg-[#DF6F7F] hover:scale-105 transition-all
             "
             onClick={onClick}

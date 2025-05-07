@@ -32,9 +32,7 @@ export default function ContainerImage({ src, alt, className}) {
                     src={src}
                     alt={alt}
                     className="
-                        w-[400px] h-[550px] rounded-xl cursor-default
-                        md:w-[600px] md:h-[750px]
-                        lg:w-[700px] lg:h-[875px]
+                        h-[90%] rounded-xl cursor-default
                         "
                 />
                 </div>

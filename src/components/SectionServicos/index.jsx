@@ -1,5 +1,7 @@
 import { HashLink } from "react-router-hash-link";
-import ButtonStaticRose from "../Buttons/ButtonStaticRose";
+import ButtonStaticRose from "../ButtonStaticRose";
+
+import servicos from "/src/data/servicos";
 
 export default function SectionServicos() {
     return(
@@ -21,16 +23,15 @@ export default function SectionServicos() {
                     <div className="
                         flex flex-col gap-8 items-center
                         md:grid md:grid-cols-2
-                        lg:grid-cols-4 lg:gap-10
+                        lg:grid-cols-5 lg:gap-10
                         ">
-                        <ButtonStaticRose text="Terapia Ocupacional" />
-                        <ButtonStaticRose text="Fisioterapia" />
-                        <ButtonStaticRose text="Psicologia" />
-                        <ButtonStaticRose text="Psicopedagogia" />
-                        <ButtonStaticRose text="Psicomotricidade" />
-                        <ButtonStaticRose text="Reforço Escolar" />
-                        <ButtonStaticRose text="Fonoaudiólogo" />
-                        <ButtonStaticRose text="Terapia ABA" />
+                        {servicos.map((servicos, index) => (
+                            < ButtonStaticRose
+                                key={index}
+                                text={servicos.title}
+                            />
+                        ))}
+
                     </div>
                     <button className="
                         bg-[#963B84] shadow-lg shadow-[#EC7BA7] w-[270px] py-4 rounded-full
