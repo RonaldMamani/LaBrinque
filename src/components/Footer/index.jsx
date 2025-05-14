@@ -1,4 +1,4 @@
-import Logo from "/src/assets/LOGO-LB.svg"
+import Logo from "../../assets/LOGO-LB.svg"
 
 import TextBoldWhite from "../Text/TextBoldWhite"
 import IconeWhatsapp from "../SVG/IconeWhatsapp"

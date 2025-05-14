@@ -1,8 +1,8 @@
 import { useLocation } from "react-router-dom"
 
-import ImageSobre from "/src/assets/IMAGEM-ILUSTRATIVA.jpg"
-import ImageServico from "/src/assets/IMAGEM-ILUSTRATIVA-4.jpg"
-import ImageEspaco from "/src/assets/IMAGEM-ILUSTRATIVA-5.jpg"
+import ImageSobre from "../../assets/IMAGEM-ILUSTRATIVA.jpg"
+import ImageServico from "../../assets/IMAGEM-ILUSTRATIVA-4.jpg"
+import ImageEspaco from "../../assets/IMAGEM-ILUSTRATIVA-5.jpg"
 
 import LinkButton from "../LinkButton"
 

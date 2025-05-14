@@ -1,5 +1,5 @@
-import Mais from "/src/assets/Add.svg";
-import Menos from "/src/assets/Less.svg";
+import Mais from "../../assets/Add.svg";
+import Menos from "../../assets/Less.svg";
 
 export default function ButtonInteractive({title, text, isOpen, onClick}) {
     return (

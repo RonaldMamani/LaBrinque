@@ -1,7 +1,7 @@
 import { HashLink } from "react-router-hash-link";
 import ButtonStaticRose from "../ButtonStaticRose";
 
-import servicos from "/src/data/servicos";
+import servicos from "../../data/servicos";
 
 export default function SectionServicos() {
     return(

@@ -1,8 +1,8 @@
 import ButtonInteractive from "../ButtonInteractive";
-import ImageTemplate from "/src/assets/IMAGEM-TEMPLATE3.jpg"
+import ImageTemplate from "../../assets/IMAGEM-TEMPLATE3.jpg"
 
-import servicos from "/src/data/servicos";
-import funcionarios from "/src/data/funcionarios";
+import servicos from "../../data/servicos";
+import funcionarios from "../../data/funcionarios";
 
 import { useState } from "react";
 import ContainerFuncionario from "../ContainerFuncionario";

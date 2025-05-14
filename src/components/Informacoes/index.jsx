@@ -1,4 +1,4 @@
-import ImagemInfo from "/src/assets/IMAGEM-INFO.jpg";
+import ImagemInfo from "../../assets/IMAGEM-INFO.jpg";
 
 import ContainerImage from "../ContainerImage";
 

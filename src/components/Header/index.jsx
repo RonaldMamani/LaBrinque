@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import Logo from "/src/assets/LOGO.png";
-import Hamburger from "/src/assets/Menu-Icon.svg";
-import Close from "/src/assets/Close_ICON.svg";
+import Logo from "../../assets/LOGO.png";
+import Hamburger from "../../assets/Menu-ICON.svg";
+import Close from "../../assets/Close_ICON.svg";
 import { HashLink } from "react-router-hash-link";
 import NavDesk from "../NavDesk";
 

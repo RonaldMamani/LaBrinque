@@ -1,6 +1,6 @@
-import Mission from "/src/assets/ICON-MISSION.svg"
-import Vision from "/src/assets/ICON-VISION.svg"
-import Values from "/src/assets/ICON-VALUES.svg"
+import Mission from "../assets/ICON-MISSION.svg"
+import Vision from "../assets/ICON-VISION.svg"
+import Values from "../assets/ICON-VALUES.svg"
 
 const valores = [
     {

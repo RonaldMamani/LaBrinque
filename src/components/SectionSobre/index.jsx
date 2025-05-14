@@ -1,4 +1,4 @@
-import valores from "/src/data/valores"
+import valores from "../../data/valores"
 
 import TopicMore from "../TopicMore";
 

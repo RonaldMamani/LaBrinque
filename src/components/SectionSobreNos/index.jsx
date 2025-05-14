@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom"
 import { HashLink } from 'react-router-hash-link'
 
-import ImageExterior from "/src/assets/IMAGEM-TEMPLATE2.jpg"
+import ImageExterior from "../../assets/IMAGEM-TEMPLATE2.jpg"
 
 
 export default function SectionSobreNos() {

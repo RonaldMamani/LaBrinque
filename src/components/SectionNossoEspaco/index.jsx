@@ -1,4 +1,4 @@
-import espacoImage from "/src/data/espacoImage";
+import espacoImage from "../../data/espacoImage";
 
 import ContainerImage from "../ContainerImage";
 

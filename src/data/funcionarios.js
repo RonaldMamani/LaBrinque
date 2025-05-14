@@ -1,7 +1,7 @@
-import Funcionario1 from "/src/assets/funcionarios/FUNCIONARIO1.jpg";
-import Funcionario2 from "/src/assets/funcionarios/FUNCIONARIO2.jpg";
-import Funcionario3 from "/src/assets/funcionarios/FUNCIONARIO3.jpg";
-import Funcionario4 from "/src/assets/funcionarios/FUNCIONARIO4.jpg";
+import Funcionario1 from "../assets/funcionarios/FUNCIONARIO1.jpg";
+import Funcionario2 from "../assets/funcionarios/FUNCIONARIO2.jpg";
+import Funcionario3 from "../assets/funcionarios/FUNCIONARIO3.jpg";
+import Funcionario4 from "../assets/funcionarios/FUNCIONARIO4.jpg";
 
 const funcionarios = [
     {
