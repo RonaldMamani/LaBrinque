@@ -8,7 +8,7 @@ export default function Intro (){
             lg:h-[calc(100vh-170px)]
             ">
                 <div className="
-                    absolute inset-0 bg-[url(./assets/IMAGEM-TEMPLATE.jpg)] bg-cover bg-center
+                    absolute inset-0 bg-[url(./assets/IMAGEM-TEMPLATE.jpg)] bg-no-repeat bg-cover bg-center 
                     ">
                     <div className="
                         absolute inset-0 bg-gradient-to-b from-black/10 to-black/95

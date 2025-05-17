@@ -49,7 +49,7 @@ export default function Footer(){
                         >
                         <IconeWhatsapp className="
                             text-white w-[45px] h-[45px] p-2 hover:text-[#EF7811]
-                            w-[50px] h-[50px]
+                            md:w-[50px] md:h-[50px]
                             lg:w-[60px] lg:h-[60px]
                             "/>
                     </a>
@@ -60,7 +60,7 @@ export default function Footer(){
                         >
                         <IconeInstagram className="
                             text-white w-[45px] h-[45px] p-2 hover:text-[#EF7811]
-                            w-[50px] h-[50px]
+                            md:w-[50px] md:h-[50px]
                             lg:w-[60px] lg:h-[60px]
                             "
                             />
@@ -73,7 +73,7 @@ export default function Footer(){
                 ">
                 <TextBoldWhite 
                     className=""
-                    text="Lá Brinquê - Clinica de Desenvolvimento Infantil © 2023 - Rodos os direitos reservados" />
+                    text="Lá Brinquê - Clinica de Desenvolvimento Infantil © 2025 - Todos os direitos reservados" />
             </div>
         </footer>
     )

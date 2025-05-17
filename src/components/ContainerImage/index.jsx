@@ -16,7 +16,7 @@ export default function ContainerImage({ src, alt, className}) {
                 src={src}
                 alt={alt}
                 className={`
-                    w-[350px] h-[425px] cursor-zoom-in
+                    cursor-zoom-in
                     hover:scale-105 transition-all
                     ${className}`}
                 onClick={() => setIsOpen(true)}
@@ -32,7 +32,9 @@ export default function ContainerImage({ src, alt, className}) {
                     src={src}
                     alt={alt}
                     className="
-                        h-[90%] rounded-xl cursor-default
+                        max-md:w-[90%] rounded-xl cursor-default
+                        md:h-[80%]
+                        lg:h-[90%]
                         "
                 />
                 </div>
