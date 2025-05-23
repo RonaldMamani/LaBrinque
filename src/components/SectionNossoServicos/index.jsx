@@ -33,7 +33,7 @@ export default function SectionNossoServicos() {
                     className="
                         border border-[#EC7BA7] rounded-3xl
                         md:h-[700px]
-                        lg:h-full lg:w-[650px] lg:border-2"
+                        lg:h-[910px] lg:w-[650px] lg:border-2"
                     src={ImageTemplate} 
                     alt="Imagem da Clinica por dentro" />
                 <div className="

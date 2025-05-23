@@ -21,7 +21,7 @@ const servicos = [
     },
     {
     title: "Psicomotricidade",
-    text: "treino de habilidades motoras amplas e funcionais do dia a dia.",
+    text: "tA psicomotricidade trabalha o desenvolvimento da coordenação motora, equilíbrio, lateralidade e percepção corporal, integrando corpo e mente para promover o aprendizado e o bem-estar da criança.",
     },
     {
     title: "Fonoaudiologia",
