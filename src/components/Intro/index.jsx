@@ -29,12 +29,14 @@ export default function Intro (){
                             text-[36px] font-bold
                             md:text-[40px] md:px-16
                             lg:text-7xl
-                            ">Olá, somos uma Clínica de Desenvolvimento Infantil Lá Brinquê</h1>
+                            ">
+                            Olá, somos a clínica de Desenvolvimento Infantil Lá Brinquê
+                        </h1>
                         <p className="
                             text-[19px] px-8
                             md:px-32 md:text-[20px]
                             lg:text-3xl lg:px-64
-                            ">Aqui você encontrara uma equipe que irá promover o desenvolvimento integral e o bem-estar das crianças.</p>
+                            ">Aqui você encontrará uma equipe que irá promover o desenvolvimento integral e o bem-estar das crianças.</p>
                     </div>
                     <div className="
                         flex flex-col items-center gap-8 font-bold text-[16px] text-white

@@ -34,8 +34,12 @@ export default function Footer(){
                     ">
                     <TextBoldWhite className="text-3xl" text="(11) 93722-3405" />
                     <div>
-                        <TextBoldWhite className="text-2xl" text="Rua Carlos de Campo, 45 Vila Correa" />
-                        <TextBoldWhite className="text-2xl" text="Ferraz de Vasconcelos - SP, 08502-320" />
+                        <TextBoldWhite 
+                            className="text-2xl" 
+                            text="Rua Carlos de Campos, 45 Vila Corrêa" />
+                        <TextBoldWhite 
+                            className="text-2xl" 
+                            text="Ferraz de Vasconcelos - SP - 08502-320" />
                     </div>
                 </div>
                 <div className="
@@ -73,7 +77,7 @@ export default function Footer(){
                 ">
                 <TextBoldWhite 
                     className=""
-                    text="Lá Brinquê - Clinica de Desenvolvimento Infantil © 2025 - Todos os direitos reservados" />
+                    text="Lá Brinquê - Clínica de Desenvolvimento Infantil © 2025 - Todos os direitos reservados" />
             </div>
         </footer>
     )
